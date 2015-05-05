@@ -1,13 +1,15 @@
 Rails.application.routes.draw do
-  get 'stati_pages/home'
+root'stati_pages#home'
 
   get 'stati_pages/help'
+  
+  get 'stati_pages/about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'application#hello'
+   #root 'application#hello'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
